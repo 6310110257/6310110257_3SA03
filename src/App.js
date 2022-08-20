@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       {
-        <WordCard value={word}/>
+        <><WordCard value={word} /><WordCard value="BORNPINK" /><WordCard value="BORNPINK" /></>
       }
     </div>
   );
